@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "BNazanin";
+    src: url("/fonts/B-NAZANIN.TTF");
+}
+
+@font-face {
+    font-family: "BNazanin";
+    src: url("/fonts/B-NAZANINBOLD.TTF");
+    font-weight: bold;
+}
+
+body {
+    background-color: #BBBBBB;
+    margin: 0px 0px 60px 0px;
+}
+
+* {
+    font-family: BNazanin;
+}
+
+.main_container {
+    margin: 60px auto 0px auto;
+    width: 1024px;
+}
+
+.title_container {
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+.section_container {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+.main_title_container {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.description_title_container {
+    font-size: 20px;
+}
+
+.section_header {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.section_body_item {
+    border: 1px dashed black;
+    padding: 10px;
+    background-color: white;
+    float: right;
+}
+
+.section_body_item:hover {
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+img.section_body_item_image {
+    display: block;
+    object-fit: contain;
+}
+
+.section_body_item_name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section_body_item_empty {
+    clear: right;
+}
